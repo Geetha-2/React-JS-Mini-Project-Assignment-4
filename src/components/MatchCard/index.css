@@ -1,0 +1,62 @@
+.match-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 18px;
+  border-radius: 15px;
+  height: 350px;
+  width: 250px;
+  margin: 10px;
+  list-style-type: none;
+}
+.competing-team-logo {
+  height: 120px;
+  width: 120px;
+}
+.sub-heading {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+.WonClassName {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #18ed66;
+}
+.LossClassName {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  color: #e31a1a;
+}
+.text {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+  .match-card-container {
+    height: 300px;
+    width: 210px;
+  }
+  .competing-team-logo {
+    height: 80px;
+    width: 80px;
+  }
+  .sub-heading {
+    font-size: 16px;
+  }
+  .text {
+    font-size: 10px;
+  }
+  .WonClassName {
+    font-size: 15px;
+  }
+  .LossClassName {
+    font-size: 15px;
+  }
+}

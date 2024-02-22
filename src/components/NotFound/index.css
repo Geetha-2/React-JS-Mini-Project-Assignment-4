@@ -1,0 +1,10 @@
+.not-found-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-text {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  color: #ffffff;
+}
